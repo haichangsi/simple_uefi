@@ -1,0 +1,26 @@
+[Defines]
+INF_VERSION = 1.25
+BASE_NAME = BestHelloWorld
+FILE_GUID = 5c80f349-734d-497d-98ad-dc57ee713453
+MODULE_TYPE = UEFI_APPLICATION
+VERSION_STRING = 1.0
+ENTRY_POINT = UefiMain
+
+[Sources]
+BestHelloWorld.c
+
+[Packages]
+MdePkg/MdePkg.dec
+
+[LibraryClasses]
+UefiApplicationEntryPoint
+UefiBootServicesTableLib
+UefiLib
+
+[Guids]
+
+[Ppis]
+
+[Protocols]
+[FeaturePcd]
+[Pcd]
